@@ -1,0 +1,109 @@
+.active {
+  color: #fff;
+}
+
+.active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+
+
+html, body, .container{
+    height: 100%;
+}
+
+.container{
+    display: table;
+    vertical-align: middle;
+}
+.vertical-center-row{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.navbar {min-height:70px !important}
+.navbar-header > a {padding-top:25px !important; padding-bottom:5px !important;}
+.navbar-nav > li > a {padding-top:25px !important; padding-bottom:25px !important;}
+.navbar {min-height:40px !important}
+      /* .navbar-nav > li > a {padding-top:25px !important; padding-bottom:5px !important;} */
+
+.navbar-font{
+    font-size: 17px;
+}
+
+.dropdown-font{
+    font-size: 27px;
+}
+
+/* Adjust dropdown Menu items (blue) text color & (yellow) shading */
+.dropdown-menu > li > a {
+    color:          blue;
+    font-size: 27px;
+    background:     yellow;
+}
+
+
+.dropdown-menu {
+    min-width:90px;
+    width: 100%;
+}
+
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
+
+
+.carousel .item {
+    width: 100%; /*slider width*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+
+      /*full width container*/
+@media (max-width: 767px) {
+.block {
+    margin-left: -20px;
+    margin-right: -20px;
+   }
+}
+
+
+
+.divider {
+    height:50px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+
+.dropdown-menu {
+  min-width:90px;
+  width: 100%;
+}
