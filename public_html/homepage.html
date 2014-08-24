@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Eyehope NGO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootswatch.min.css">
+    <link href="dist/css/carousel.css" rel="stylesheet">
+    <link href="dist/css/main.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+
+
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script> 
+  </head>
+
+  <body>
+    <script type="text/javascript" src="navigationbar.js"></script>
+    <script>
+      $(".nav .dropdown").each(function(index, val){
+          $(val).removeClass('active');
+      })
+    </script>
+
+<section class="block bg-2">
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="image/homepage/bowen02.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/homepage/meili01.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/homepage/nju02.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+</section>
+
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script>
+
+      /**
+       * Author: Heather Corey
+       * jQuery Simple Parallax Plugin
+       *
+       */
+ 
+      (function($) {
+          $.fn.parallax = function(options) {
+       
+              var windowHeight = $(window).height();
+       
+              // Establish default settings
+              var settings = $.extend({
+                  speed        : 0.15
+              }, options);
+       
+              // Iterate over each object in collection
+              return this.each(function() {
+                  // Save a reference to the element
+                  var $this = $(this);
+           
+                  // Set up Scroll Handler
+                  $(document).scroll(function(){
+                      var scrollTop = $(window).scrollTop();
+                            var offset = $this.offset().top;
+                            var height = $this.outerHeight();
+       
+                      // Check if above or below viewport
+                      if (offset + height <= scrollTop || offset >= scrollTop + windowHeight) {
+                        return;
+                      }
+                      // adjust yPosition
+                      var yBgPosition = Math.round((offset - scrollTop) * settings.speed) - 90;
+                 
+                      // Apply the Y Background Position to Set the Parallax Effect
+                      $this.css('background-position', 'center ' + yBgPosition + 'px');    
+                  });
+              });
+          }
+      }(jQuery));
+
+      $('.bg-1,.bg-3').parallax({
+        speed : 0.35
+      });
+
+      $('.bg-2').parallax({
+        speed : 0.25
+      });
+
+
+
+      $(document).ready(function(){
+        // .carousel .item
+          $('section').height($(window).height() - 100);
+          $('.carousel .item').css("min-height", $(window).height() - 50);
+          // .carousel .item img
+          $('.carousel .item img').css("min-height", $(window).height() - 50);
+          // 510 px from top
+          // bottom offset: window.height() - 510
+          var x = $(window).height() - 520;
+          $('.carousel-indicators').css("bottom", -x + 40);
+      });
+
+
+
+      $('.navbar .dropdown').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(150).slideDown();
+      }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(50).slideUp()
+      });
+
+      document.onreadystatechange = function() {
+          if (document.readyState === 'complete') {
+              $(".dropdown-menu").each(function(){
+                  var parentWidth = $(this).parent().innerWidth();
+                  var menuWidth = $(this).innerWidth();
+                  var margin = (parentWidth / 2 ) - (menuWidth / 2);
+                  margin = margin + "px";
+                  $(this).css("margin-left", margin);
+              });
+          }
+      }
+    </script>
+    <!-- <script src="../assets/js/bootswatch.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootswatch: Yeti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootswatch.min.css">
+
+    <link href="dist/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
+
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>  
+  </head>
+
+
+
+
+
+  <body>
+    <script type="text/javascript" src="navigationbar.js"></script>
+    <script>
+      $(".nav .dropdown").each(function(index, val){
+          $(val).removeClass('active');
+      })
+      $($(".nav .dropdown")[0]).addClass('active');
+    </script>
+    <div class="container">
+
+
+
+
+
+
+
+       <!-- Typography
+      ================================================== -->
+      <div class="bs-docs-section">
+
+
+      <div class="row">
+        <div class="col-lg-0">
+        </div>
+        <div class="col-lg-12">
+          <div class="page-header" id="banner">
+            <div class="row">
+              <div class="col-lg-12" style="padding: 35px 15px 0 15px;">
+<h1 id="type">我们是关注一生的慈善机构——EyeHope</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Headings -->
+        <div class="row">
+          <div class="col-lg-12">
+                              <img border="0" src="image/vision/dove01.jpg" width=100% height="328">
+               <br>
+               <br>
+          </div>
+        </div>
+    
+
+      </div>
+        <div class="row">
+         <div class="col-lg-12">
+            <h2>使命与愿景</h2>
+            <br>
+            <p class="" style="font-size: 18px"><em>他们罹患眼病，但是他们向往光明！</em></p>
+            <p class="" style="font-size: 18px"><em> 我们在美国费城，但是我们心系同胞！</em></p>
+            <p class="" style="font-size: 18px"><em>让我们一起带着希望，向光明前进！</em></p>
+             <p class="" style="font-size: 18px">
+             <br>
+我们的志愿者队伍由来自费城三所大学（Univeristy of Pennsylvania, Jefferson Univeristy, Drexel Univeristy）的学生以及当地华人组成，致力于帮助来美国费城治疗视网膜母细胞瘤的中国家庭，为他们在美国的就医以及生活提供便利和帮助。
+<br>
+<br>
+目前，我们主要以志愿者和家庭结对子的模式展开工作，我们提供的服务包括现场翻译，电话邮件翻译，提供生活信息交通便利，组织英语学习和体验费城文化等等。
+
+            </p>
+          </div>
+        </div>
+
+
+
+
+      <script type="text/javascript" src="footer.js"></script>
+      <br>
+      <br>
+      <br>
+
+    </div> <!-- for Container -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script>
+      $('.navbar .dropdown').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(150).slideDown();
+      }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(50).slideUp()
+      });
+
+      document.onreadystatechange = function() {
+          if (document.readyState === 'complete') {
+              $(".dropdown-menu").each(function(){
+                  var parentWidth = $(this).parent().innerWidth();
+                  var menuWidth = $(this).innerWidth();
+                  var margin = (parentWidth / 2 ) - (menuWidth / 2);
+                  margin = margin + "px";
+                  $(this).css("margin-left", margin);
+              });
+          }
+      }
+
+      </script>
+    <!-- <script src="../assets/js/bootswatch.js"></script> -->
+  </body>
+</html>

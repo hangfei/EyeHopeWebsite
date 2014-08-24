@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootswatch: Yeti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootswatch.min.css">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
+   <style>
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
+
+
+      .navbar {min-height:70px !important}
+      .navbar-header > a {padding-top:25px !important; padding-bottom:5px !important;}
+      .navbar-nav > li > a {padding-top:25px !important; padding-bottom:25px !important;}
+      .navbar {min-height:40px !important}
+      /* .navbar-nav > li > a {padding-top:25px !important; padding-bottom:5px !important;} */
+
+      .navbar-font{
+        font-size: 17px;
+      }
+
+      .dropdown-font{
+        font-size: 27px;
+      }
+
+      /* Adjust dropdown Menu items (blue) text color & (yellow) shading */
+      .dropdown-menu > li > a {
+      color:          blue;
+       font-size: 27px;
+      background:     yellow;
+      }
+
+
+
+
+      .carousel .item {
+          width: 100%; /*slider width*/
+      }
+      .carousel .item img {
+          width: 100%; /*img width*/
+      }
+
+      /*full width container*/
+      @media (max-width: 767px) {
+          .block {
+              margin-left: -20px;
+              margin-right: -20px;
+          }
+      }
+
+
+
+      .divider {
+          height:50px;
+      }
+
+      section {
+          height:500px;
+          padding-top:50px;
+          padding-bottom:50px;
+          overflow:auto;
+      }
+
+
+      .dropdown-menu {
+        min-width:90px;
+        width: 100%; 
+      }
+    </style>
+  </head>
+
+
+
+
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header pull-left">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" rel="home" href="http://eyehopephilly.org/homepage.html" title="Eyehope">
+              <img style="max-width:200px; margin-top: -15px;" src="../image/logo.png" width="50" height="50">
+            </a>
+            <a href="http://eyehopephilly.org/homepage.html" class="navbar-brand">中文名</a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <!-- change navbar-right  to pull-right to remove conflict with center dropdown.-->
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="news.html" id="themes">&nbsp &nbsp关于我们&nbsp &nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li ><a href="http://eyehopephilly.org/vision.html">宗旨和信念</a></li>
+                <li><a href="http://eyehopephilly.org/organization.html">我们的组织</a></li>
+                <li><a href="http://eyehopephilly.org/photogallery.html">图片集</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="ourstory.html" id="themes">&nbsp我们的故事&nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/ourstory.html" >我们的故事</a></li>           
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" id="themes">视网膜母细胞瘤</a>
+              <ul class="dropdown-menu dropdown-font" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/symptons.html">早期症状</a></li>
+                <li><a href="http://eyehopephilly.org/aboutrb.html">关于视网膜母细胞瘤</a></li>
+                <li><a href="http://eyehopephilly.org/treatment.html">治疗方案</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" id="themes">&nbsp加入我们&nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/joinus.html">加入我们</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+
+
+
+      <br>
+      <br>
+      <br>
+       <!-- Typography
+      ================================================== -->
+      <div class="bs-docs-section">
+            <!-- Headings -->
+            <div class="row">
+              <div class="col-lg-12">
+                  <br>
+                  <h1 id="type">费城社区艺术节</h1>
+                  <p class="lead blog-description " style="margin-bottom: 40px; font-size: 18px">
+                    January 1, 2014 by 志愿者 <a href="#">张羽</a>
+                  </p>
+
+              </div>
+            </div>
+
+
+        <div class="row">
+          <div class="col-lg-9">
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <img border="0" src="../image/ourstory/01_pic.jpg" width=100% height=100%>
+              </div>
+            </div>
+
+
+            <h4 id="type">
+              <span class="label label-primary">活动</span>
+              <span class="label label-primary">暑假</span>
+              <span class="label label-primary">艺术节</span>
+            </h4>
+
+
+            <h2 id="type">6月中旬</h2>
+              <div class="row">
+               <div class="col-lg-12">
+                  <p class="lead" style="font-size: 20px">
+
+                    6月中旬，第一次从朋友口中听到了这个特殊的中国小朋友眼癌群体，毫不犹豫的加入了EyeHope。这个志愿者大家庭。带着纯热血并希望能为这些家庭和小朋友提供自己绵薄之力的心情，我接受了组织的第一份任务--带领这些家庭参加费城一年一度最大的社区艺术节！<br>
+                    <br>
+                    私心想着，组织大家去艺术节很有意义，一来可以让这些家庭和孩子们暂时远离就医烦；二来可以让他们真正接触美国当地的社会生活，体验风土人情。内心中不觉得充满了使命感。<br>
+                    <br>
+                    从发微信召集人数，到活动当天中国城集合，一切都进行的井井有条。五个家庭，三个志愿者，和一个帮助照相的小哥集合在8街的地铁站。这是我第一次真正接触到这些孩子和家庭。小盆友们个个都精心打扮了一番。有个小姑娘穿了一身粉，带着卡哇伊的粉发卡，酷酷的粉墨镜。坐在自己的小推车里笑眯眯地跟我们打招呼。也有的更小的小朋友才4岁，羞怯怯地坐在婴儿车里不敢和大家说话。因为担心大家不认识路走丢，所以决定大家一起走到艺术节活动地点。一路上大家有说有笑，有个爸爸甚至与街边连锁餐饮小车的小老板聊的很投缘，互留了电话。<br>
+
+                  </p>
+                    <blockquote>
+                      <p>6月中旬，第一次从朋友口中听到了这个特殊的中国小朋友眼癌群体，毫不犹豫的加入了EyeHope。这个志愿者大家庭。带着纯热血并希望能为这些家庭和小朋友提供自己绵薄之力的心情，我接受了组织的第一份任务--带领这些家庭参加费城一年一度最大的社区艺术节！.</p>
+                    </blockquote>
+                  <p class="lead" style="font-size: 20px">
+
+                    一到活动地点，印入眼帘的便是年龄肤色不同的小朋友在认真地学跳印度舞！虽然没有宣传的上千人参加，但整整一个小街区和停车场里充满了各种让人眼花缭乱的互动小活动。耳边充斥着各种口音的英语，这样的景象还是让有些家庭和小孩不知如何入手。<br>
+                    <br>
+                    看出了大家的犹豫，我们赶紧联系了妮妮，妮妮是EyeHope志愿者中的一员老将，这次负责艺术节的制作瓷砖画的摊位。正是因为她，我们才知道有社区艺术节这个活动。我和志愿者小娇想着或许看到认识的面孔，大家紧张的心情也会放松下来吧。<br>
+
+                  </p>
+
+                </div>
+              </div> 
+
+
+            <h2 id="type">艺术节</h2>
+              <div class="row">
+               <div class="col-lg-12">
+                  <p class="lead" style="font-size: 20px">
+                    妮妮和各个家庭小盆友们熟络的打着招呼，耐心的讲解如何参加这个活动，她的热情和开朗感染了大家，不一会，家长和小朋友们便轻车熟路的玩起了瓷砖画。作为志愿者的我和小娇都忍住不制作了一个。趁着大家都还在忙着制作瓷砖画的时候，我和小娇决定先去勘探下其它活动，这样，我们就可以带着大家更愉快的玩耍了。我们已最快速度浏览了艺术节活动，定位了几个我们觉得小朋友会喜欢的，比如画脸，画头像，制作胸针，制作彩色小鱼等等，然后再次带着大家前往这些活动地点。刚开始，我和小骄帮着翻译如何参与游戏。慢慢地，小朋友们注意力被别的活动分散开，正在我们担心他们需要翻译时，这些可爱的孩子早已加入到活动中去啦。更多地时候，我看到的时家长们带着孩子在各个摊位前的互动。这样的互动给了每个家庭间充分的（quality time）。其中最让我印象深刻的是一个三口之家。爸爸和妈妈都玩的很投入很兴奋，在这样的情绪带动下，他们的小孩从刚开始有些害羞，到渐渐的特别主动，独立和自信的到每个摊位前去玩。我们刚开始的担心烟消云散。每一个这样的活动都能激发孩子们身上不同的闪光点。我想这才是这次活动的意义吧。<br>
+                  </p>
+                  <ul class="lead" style="font-size: 20px">
+                    <li>画头像</li>
+                    <li>制作胸针</li>
+                    <li>制作彩色小鱼等等</li>
+                  </ul>
+
+                  <p class="lead" style="font-size: 20px">
+                    他们让我反思我该如何看待这样的家庭与孩子。我最初的印象中这些患有罕见RB的小朋友是一群特殊群体，他们经历了的疾病对于他们是多么的不公平，他们勇敢的面对就是我们的榜样和激励. 但与他们接触的过程中，我了解了我的观点一直是被社会所误导的，就像 Ted Talk 里的Stella Young 所讲的那样，是社会的观念让我们一直理解他们是多么的特殊，换句话讲，我们也是带着“有色眼镜”在看待这些孩子和家庭的。但是她们并不特殊，这些孩子跟我们身边所有的小朋友一样，他们只是恰巧在经历一段这样的事，不应该被“特殊化”。“特殊看待”不会帮助这些孩子面对生活中困难，健康成长。他们也更让我反思作为志愿者的我的角色和职责是什么。不管带着怎样的理解和心情去接触这些家庭，在和这些可爱的孩子们和充满爱的家庭相处中，每每都是他们带给我们最多的感悟。
+
+                  </p>
+
+
+                </div>
+              </div>           </div>
+
+
+
+        <div class="col-lg-3 col-sm-offset-0 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+
+        </div>
+
+
+
+
+
+      
+
+      </div><!-- end <div class="bs-docs-section"> -->
+
+
+      <hr class="featurette-divider">
+      <br>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-inline">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
+              <li><a href="https://twitter.com/thomashpark">Twitter</a></li>
+              <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=F22JEM3Q78JC2">Donate</a></li>
+            </ul>
+            <p>Made by <a href="http://thomaspark.me" rel="nofollow">Hangfei Lin, Zach Zhang</a>. Contact them at <a href="mailto:thomas@bootswatch.com">hangfeilin@gmail.com, zack@mail.com</a>.</p>
+            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap, Bootswatch</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+          </div>
+        </div>
+      </footer>
+      <br>
+      <br>
+
+    </div> <!-- for Container -->
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script>
+      $('.navbar .dropdown').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(150).slideDown();
+      }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(50).slideUp()
+      });
+
+      document.onreadystatechange = function() {
+          if (document.readyState === 'complete') {
+              $(".dropdown-menu").each(function(){
+                  var parentWidth = $(this).parent().innerWidth();
+                  var menuWidth = $(this).innerWidth();
+                  var margin = (parentWidth / 2 ) - (menuWidth / 2);
+                  margin = margin + "px";
+                  $(this).css("margin-left", margin);
+              });
+          }
+      }
+
+      </script>
+    <!-- <script src="../assets/js/bootswatch.js"></script> -->
+  </body>
+</html>
+

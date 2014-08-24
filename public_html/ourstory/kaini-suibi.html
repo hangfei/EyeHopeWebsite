@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootswatch: Yeti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootswatch.min.css">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
+   <style>
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
+
+
+      .navbar {min-height:70px !important}
+      .navbar-header > a {padding-top:25px !important; padding-bottom:5px !important;}
+      .navbar-nav > li > a {padding-top:25px !important; padding-bottom:25px !important;}
+      .navbar {min-height:40px !important}
+      /* .navbar-nav > li > a {padding-top:25px !important; padding-bottom:5px !important;} */
+
+      .navbar-font{
+        font-size: 17px;
+      }
+
+      .dropdown-font{
+        font-size: 27px;
+      }
+
+      /* Adjust dropdown Menu items (blue) text color & (yellow) shading */
+      .dropdown-menu > li > a {
+      color:          blue;
+       font-size: 27px;
+      background:     yellow;
+      }
+
+
+
+
+      .carousel .item {
+          width: 100%; /*slider width*/
+      }
+      .carousel .item img {
+          width: 100%; /*img width*/
+      }
+
+      /*full width container*/
+      @media (max-width: 767px) {
+          .block {
+              margin-left: -20px;
+              margin-right: -20px;
+          }
+      }
+
+
+
+      .divider {
+          height:50px;
+      }
+
+      section {
+          height:500px;
+          padding-top:50px;
+          padding-bottom:50px;
+          overflow:auto;
+      }
+
+
+      .dropdown-menu {
+        min-width:90px;
+        width: 100%; 
+      }
+    </style>
+  </head>
+
+
+
+
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header pull-left">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" rel="home" href="http://eyehopephilly.org/homepage.html" title="Eyehope">
+              <img style="max-width:200px; margin-top: -15px;" src="../image/logo.png" width="50" height="50">
+            </a>
+            <a href="http://eyehopephilly.org/homepage.html" class="navbar-brand">中文名</a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <!-- change navbar-right  to pull-right to remove conflict with center dropdown.-->
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="news.html" id="themes">&nbsp &nbsp关于我们&nbsp &nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li ><a href="http://eyehopephilly.org/vision.html">宗旨和信念</a></li>
+                <li><a href="http://eyehopephilly.org/organization.html">我们的组织</a></li>
+                <li><a href="http://eyehopephilly.org/photogallery.html">图片集</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="ourstory.html" id="themes">&nbsp我们的故事&nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/ourstory.html" >我们的故事</a></li>           
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" id="themes">视网膜母细胞瘤</a>
+              <ul class="dropdown-menu dropdown-font" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/symptons.html">早期症状</a></li>
+                <li><a href="http://eyehopephilly.org/aboutrb.html">关于视网膜母细胞瘤</a></li>
+                <li><a href="http://eyehopephilly.org/treatment.html">治疗方案</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" id="themes">&nbsp加入我们&nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/joinus.html">加入我们</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+
+
+
+      <br>
+      <br>
+      <br>
+       <!-- Typography
+      ================================================== -->
+      <div class="bs-docs-section">
+            <!-- Headings -->
+            <div class="row">
+              <div class="col-lg-12">
+                  <br>
+                  <h1 id="type">“这是我们到美国以来最开心的一天!”</h1>
+                  <h3 id="type"> ——记带小朋友和家长参加毕业典礼,逛宾大逛校园</h3>
+                  <p class="lead blog-description " style="margin-bottom: 40px; font-size: 18px">
+                    June 1, 2014 by 志愿者 <a href="#">顾凯妮</a>
+                  </p>
+
+              </div>
+            </div>
+
+
+        <div class="row">
+          <div class="col-lg-9">
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <img border="0" src="../image/ourstory/kaini.jpg" width=100% height=100%>
+              </div>
+            </div>
+
+
+            <h4 id="type">
+              <span class="label label-primary">活动</span>
+              <span class="label label-primary">学期</span>
+              <span class="label label-primary">毕业典礼</span>
+            </h4>
+
+
+            <h2 id="type">毕业典礼</h2>
+              <div class="row">
+               <div class="col-lg-12">
+                  <p class="lead" style="font-size: 20px">
+                    2014年 5月19日是宾大第258届典礼,志愿者潘莹作为今年的毕业生号召家长带小朋友们来学校参加盛大的毕业典礼。大多数家长虽然在费城已经呆了几个月但是一直没机会参观过宾大校园,所以得知这个机会大家都很兴奋。
+                  </p>
+                  <p class="lead" style="font-size: 20px">
+                    毕业典礼时我和惠子一家和小兔子一家坐在一起。两位小朋友第一次参加这么多人的典礼,在观众席上上蹿下跳很是兴奋。几位家长时不时问我校长和嘉宾们讲的什么,我稍微翻译了一下,他们都听得津津有味。典礼结束时两家都冲到典礼台前合影留念,家长们叮嘱两位小朋友要好好读书以后也来宾大念书,小朋友们似懂非懂地点头。（图1:惠子家和小兔子家在毕业典礼台前合影）。
+                    <img border="0" src="../image/ourstory/kaini-suibi/1.jpg" width=100% height=100%>
+                  </p>
+                  
+                   <p class="lead" style="font-size: 20px">
+                    典礼后各位家长和志愿者潘莹以及她的家人一起合影。(图2: 和潘莹一家的合影)潘莹是最早帮助这群家长的志愿者之一。一位家长在见到潘莹父母时激动地握着他们地手感谢他们教导出这么优秀的孩子。我在一旁看着觉得非常感动。
+                    <img border="0" src="../image/ourstory/kaini-suibi/2.jpg" width=100% height=100%>
+                  </p>
+                  
+                </div>
+              </div> 
+
+
+            <h2 id="type">体验“餐车”文化</h2>
+              <div class="row">
+               <div class="col-lg-12">
+                  <p class="lead" style="font-size: 20px">
+                    到了中午吃饭的时间,我带家长们体验了一把“餐车”文化。宾大附近有许多各种风味的餐车(food truck),因为食物便宜快捷,餐车是我们学生平时中午最常光顾的地方 。家长们都买了中餐,我们一起在学校的一个小花园里用餐,有说有笑,就像大家一起出来春游一样。(图3:家长们在公园聚餐）。
+                    <img border="0" src="../image/ourstory/kaini-suibi/3.jpg" width=100% height=100%>
+                  </p>
+                  
+                  <p class="lead" style="font-size: 20px">
+                    在小花园里,小朋友们在池塘边喂鸭子,数乌龟,看流水,玩得不亦乐乎。(图4-5: 小朋友们在花园玩耍)一位家长很有创意地玩起了刺激的“抛娃”游戏,小朋友们纷纷要求家长把他们抛起拍照。为了抓拍抛起的照片,家长经常需要尝试好几回,小朋友们尖叫声不断,家长笑声不断。最后,我为大家在小花园找了张合影。
+                    <img border="0" src="../image/ourstory/kaini-suibi/5.jpg" width=100% height=100%>
+                    <br>
+                    <br>
+                    <img border="0" src="../image/ourstory/kaini-suibi/6.jpg" width=100% height=100%>
+                  </p>
+                  
+
+                  <p class="lead" style="font-size: 20px">
+                    在分别之前,一位家长跟我说:“凯妮,这是我们到美国以来最开心的一天!”我听了非常高兴因为今天的毕业典礼和校园行给他们带来了快乐,但是心里也很不是滋味,各位家长因为语言等方面的限制平时参加当地活动和体验费城文化的机会有限,这么简单的一天已经是他们最为开心的一天了。另一位家长说:“凯妮,今天你辛苦了。”其实,我一点也不辛苦,这一天也是我做志愿者以来最开心的一天,因为这一天的陪伴和我以前在医院里的志愿者服务很不一样,这里没有孩子的哭声,没有家长的愁眉,只有欢声笑语。多么希望小朋友和家长们能有更多这样快乐的日子。
+                  </p>
+                </div>
+              </div>           </div>
+
+
+        <div class="col-sm-1">
+        </div>
+
+
+        <div class="col-sm-2 col-sm-offset-0 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>在这里和您分享故事，见闻和心情。</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>归档</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>标签</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">媒体报道</a></li>
+              <li><a href="#">志愿者随笔</a></li>
+              <li><a href="#">家长随笔</a></li>
+              <li><a href="#">组织新闻</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+
+        </div>
+
+
+
+
+
+      
+
+      </div><!-- end <div class="bs-docs-section"> -->
+
+
+      <hr class="featurette-divider">
+      <br>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-inline">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
+              <li><a href="https://twitter.com/thomashpark">Twitter</a></li>
+              <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=F22JEM3Q78JC2">Donate</a></li>
+            </ul>
+            <p>Made by <a href="http://thomaspark.me" rel="nofollow">Tianyuan, Hangfei Lin, Zach Zhang</a>. Contact them at <a href="mailto:thomas@bootswatch.com">hangfeilin@gmail.com, zack@mail.com</a>.</p>
+            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap, Bootswatch</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+          </div>
+        </div>
+      </footer>
+      <br>
+      <br>
+
+    </div> <!-- for Container -->
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script>
+      $('.navbar .dropdown').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(150).slideDown();
+      }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(50).slideUp()
+      });
+
+      document.onreadystatechange = function() {
+          if (document.readyState === 'complete') {
+              $(".dropdown-menu").each(function(){
+                  var parentWidth = $(this).parent().innerWidth();
+                  var menuWidth = $(this).innerWidth();
+                  var margin = (parentWidth / 2 ) - (menuWidth / 2);
+                  margin = margin + "px";
+                  $(this).css("margin-left", margin);
+              });
+          }
+      }
+
+      </script>
+    <!-- <script src="../assets/js/bootswatch.js"></script> -->
+  </body>
+</html>
+

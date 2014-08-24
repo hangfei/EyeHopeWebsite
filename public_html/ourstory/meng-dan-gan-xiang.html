@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootswatch: Yeti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootswatch.min.css">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
+   <style>
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
+
+
+      .navbar {min-height:70px !important}
+      .navbar-header > a {padding-top:25px !important; padding-bottom:5px !important;}
+      .navbar-nav > li > a {padding-top:25px !important; padding-bottom:25px !important;}
+      .navbar {min-height:40px !important}
+      /* .navbar-nav > li > a {padding-top:25px !important; padding-bottom:5px !important;} */
+
+      .navbar-font{
+        font-size: 17px;
+      }
+
+      .dropdown-font{
+        font-size: 27px;
+      }
+
+      /* Adjust dropdown Menu items (blue) text color & (yellow) shading */
+      .dropdown-menu > li > a {
+      color:          blue;
+       font-size: 27px;
+      background:     yellow;
+      }
+
+
+
+
+      .carousel .item {
+          width: 100%; /*slider width*/
+      }
+      .carousel .item img {
+          width: 100%; /*img width*/
+      }
+
+      /*full width container*/
+      @media (max-width: 767px) {
+          .block {
+              margin-left: -20px;
+              margin-right: -20px;
+          }
+      }
+
+
+
+      .divider {
+          height:50px;
+      }
+
+      section {
+          height:500px;
+          padding-top:50px;
+          padding-bottom:50px;
+          overflow:auto;
+      }
+
+
+      .dropdown-menu {
+        min-width:90px;
+        width: 100%; 
+      }
+    </style>
+  </head>
+
+
+
+
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header pull-left">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" rel="home" href="http://eyehopephilly.org/homepage.html" title="Eyehope">
+              <img style="max-width:200px; margin-top: -15px;" src="../image/logo.png" width="50" height="50">
+            </a>
+            <a href="http://eyehopephilly.org/homepage.html" class="navbar-brand">中文名</a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <!-- change navbar-right  to pull-right to remove conflict with center dropdown.-->
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="news.html" id="themes">&nbsp &nbsp关于我们&nbsp &nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li ><a href="http://eyehopephilly.org/vision.html">宗旨和信念</a></li>
+                <li><a href="http://eyehopephilly.org/organization.html">我们的组织</a></li>
+                <li><a href="http://eyehopephilly.org/photogallery.html">图片集</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="ourstory.html" id="themes">&nbsp我们的故事&nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/ourstory.html" >我们的故事</a></li>           
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" id="themes">视网膜母细胞瘤</a>
+              <ul class="dropdown-menu dropdown-font" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/symptons.html">早期症状</a></li>
+                <li><a href="http://eyehopephilly.org/aboutrb.html">关于视网膜母细胞瘤</a></li>
+                <li><a href="http://eyehopephilly.org/treatment.html">治疗方案</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" id="themes">&nbsp加入我们&nbsp</a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="http://eyehopephilly.org/joinus.html">加入我们</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+
+
+
+      <br>
+      <br>
+      <br>
+       <!-- Typography
+      ================================================== -->
+      <div class="bs-docs-section">
+            <!-- Headings -->
+            <div class="row">
+              <div class="col-lg-12">
+                  <br>
+                  <h1 id="type">志愿者感想</h1>
+                  <p class="lead blog-description " style="margin-bottom: 40px; font-size: 18px">
+                    January 1, 2014 by 志愿者 <a href="#">张羽</a>
+                  </p>
+
+              </div>
+            </div>
+
+
+        <div class="row">
+          <div class="col-lg-9">
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <img border="0" src="../image/ourstory/mengdan.jpg" width=100% height=100%>
+              </div>
+            </div>
+
+
+            <h4 id="type">
+              <span class="label label-primary">活动</span>
+              <span class="label label-primary">暑假</span>
+              <span class="label label-primary">艺术节</span>
+            </h4>
+
+
+              <div class="row">
+               <div class="col-lg-12">
+                  <p class="lead" style="font-size: 20px">
+                    <br>
+                    现在回想起来自己遇到这些可爱勇敢的家庭完全是个太偶然的机会。13年的初夏我看到一个叫叮当妈的网友发布了关于带儿子来Wills Eye(Jefferson系统的眼科医院)治疗的微博，我是个平时连好友微博都懒得回复的不合格网友那天却在底下留言说自己可以帮忙，我想多半还是作为Jefferson雇员隐隐感觉自己有种义务，于是就这样我们有了第一次见面。<br>
+                    <br>
+                    那个时候我几乎没有听过视网膜母细胞癌，但我知道即使人群中发病率极低，缩小到个体，对于一个患儿家庭却是100%的影响。我开始担心该怎样面对这样不幸的家庭，可是真的当我见到叮当一家，我看到的是个普通的家庭坐在候诊室看着孩子在一边玩耍，我看不到一丝悲伤和绝望，那是和我脑子中预想的不一样的场景。随着和叮当家庭的熟悉我看到了一次次孩子治疗中的坚强，治疗后破涕为笑的天真，看到了家长们不惧初来乍到语言不流利守护孩子的勇敢，有种力量推着我走进他们。于是我遇到越来越多的家庭越来越来和我一样机缘巧合参入的志愿者，于是我们有了自己的组织，自己的网站，我们在费城慢慢建立起一个无形的家庭。
+<br>
+                    <br>
+                    作为一个志愿者我不敢说自己为这些家庭孩子做了多少，但我持续得感觉着家长们深深的感激之情。我明白那是种在异国他乡知道有人会在后面支持自己的精神支柱，哪怕最后所有的事情都得自己闯荡，我们这些留学生刚开始留学之路的时候，又何尝不是一样的。你们不知道的是，你们的勇敢坚强乐观不放弃，更是给我们这些异乡拼搏的孩子们最强大的鼓舞，我们也想对你们说一声谢谢，谢谢你们来到费城谢谢你们丰富了我们的人生。
+<br>
+
+                </div>
+              </div> 
+          </div>
+
+
+
+        <div class="col-sm-1">
+        </div>
+        
+
+        <div class="col-sm-2 col-sm-offset-0 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>在这里和您分享故事，见闻和心情。</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>归档</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>标签</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">媒体报道</a></li>
+              <li><a href="#">志愿者随笔</a></li>
+              <li><a href="#">家长随笔</a></li>
+              <li><a href="#">组织新闻</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+
+        </div>
+
+
+
+
+
+      
+
+      </div><!-- end <div class="bs-docs-section"> -->
+
+
+      <hr class="featurette-divider">
+      <br>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-inline">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
+              <li><a href="https://twitter.com/thomashpark">Twitter</a></li>
+              <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=F22JEM3Q78JC2">Donate</a></li>
+            </ul>
+            <p>Made by <a href="http://thomaspark.me" rel="nofollow">Hangfei Lin, Zach Zhang</a>. Contact them at <a href="mailto:thomas@bootswatch.com">hangfeilin@gmail.com, zack@mail.com</a>.</p>
+            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap, Bootswatch</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+          </div>
+        </div>
+      </footer>
+      <br>
+      <br>
+
+    </div> <!-- for Container -->
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script>
+      $('.navbar .dropdown').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(150).slideDown();
+      }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(50).slideUp()
+      });
+
+      document.onreadystatechange = function() {
+          if (document.readyState === 'complete') {
+              $(".dropdown-menu").each(function(){
+                  var parentWidth = $(this).parent().innerWidth();
+                  var menuWidth = $(this).innerWidth();
+                  var margin = (parentWidth / 2 ) - (menuWidth / 2);
+                  margin = margin + "px";
+                  $(this).css("margin-left", margin);
+              });
+          }
+      }
+
+      </script>
+    <!-- <script src="../assets/js/bootswatch.js"></script> -->
+  </body>
+</html>
+
